@@ -19,6 +19,7 @@ export class TrafficLight extends React.Component {
 			<div>
 				<div className="toptrafficlight" />
 				<div className="trafficbase">
+                <div className="#grad1"></div>
 					<div
 						className={"red light " + redShadow}
 						onClick={() => this.setState({ selectedlight: "red" })}

@@ -8,6 +8,7 @@
     margin: 0 auto;
 
 }
+
 .red, .yellow, .green{
     width: 100px;
     height: 100px;
@@ -25,4 +26,20 @@
 }
 .shadowlight{
     box-shadow: white 0px 0px 40px 20px
+}
+
+
+ .red, .yellow, .green{
+  opacity: 1.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+#grad1 {
+  height: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(red, yellow); /* Standard syntax (must be last) */
+}
+body {
+  padding: 50px;
+  background-color: grey;
+  font-family: sans-serif;
 }
