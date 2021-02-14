@@ -33,7 +33,7 @@ export class TrafficLight extends React.Component {
 					<div
 						className={"green light " + greenShadow}
 						onClick={() =>
-							this.setState({ selectedlight: "yellow" })
+							this.setState({ selectedlight: "green" })
 						}
 					/>
 				</div>
